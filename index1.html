@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        footer > div:first-child p{
+            padding: 3px 0;
+        }
+        .match-width-parent{
+            width: 100%;
+        }
+        .match-height-parent{
+            height: 100%;
+        }
+        .wrap-height-content{
+            height: fit-content;
+        }
+        .orientation-horizontal{
+            display: flex;
+        }
+        .orientation-vertical{
+            display: flex;
+            flex-direction: column;
+        }
+        .gravity-center{
+            justify-content: center;
+        }
+        .gravity-end{
+            justify-content: end;
+        }
+        .gravity-center-vertical{
+            align-items: center;
+        }
+        .gravity-end-vertical{
+            align-items: end;
+        }
+        strong{
+            padding: 0px 10px;
+        }
+        .parent-wd-400{
+            width: 400px;
+        }
+        .space-around{
+            justify-content: space-around;
+        }
+        .gap-20{
+            gap: 20px;
+        }
+        .ic-social-media{
+            width: 30px;
+            border-radius: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .pd-r-200{
+            padding-right: 200px;
+            box-sizing: border-box;
+        }
+        .pd-20{
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body class="match-height-parent match-width-parent">
+    <footer class="match-width-parent wrap-height-content orientation-vertical gap-20 pd-20">
+        <div class="match-width-parent wrap-height-content orientation-horizontal space-around">
+            <div>
+                <p>Thời sự</p>
+                <p>Thế giới</p>
+                <p>Kinh tế</p>
+                <p>Đời sống</p>
+            </div>
+            <div>
+                <p>Sức khoẻ</p>
+                <p>Giới trẻ</p>
+                <p>Giáo dục</p>
+                <p>Du lịch</p>
+            </div>
+            <div>
+                <p>Văn hoá</p>
+                <p>Giải trí</p>
+                <p>Thể thao</p>
+                <p>Công nghệ</p>
+            </div>
+            <div>
+                <p>Xe</p>
+                <p>Thời trang trẻ</p>
+                <p>Video</p>
+                <p>Podcast</p>
+            </div>
+            <div>
+                <p>Bạn đọc</p>
+                <p>Rao vặt</p>
+            </div>
+        </div>
+        <div class="match-width-parent wrap-height-content orientation-horizontal gravity-end pd-r-200">
+            <div class="wrap-height-content">
+                <strong>Đặt báo</strong>
+                <strong>Quảng cáo</strong>
+                <strong>RSS</strong>
+                <strong>Tòa soạn</strong>
+                <strong>Chính sách bảo mật</strong>
+            </div>
+        </div>
+        <div class="match-width-parent wrap-height-content orientation-vertical gravity-end-vertical">
+            <strong>Theo dõi báo trên</strong>
+            <div class="orientation-horizontal gap-20">
+                <img class="ic-social-media" src="https://img.icons8.com/ios-filled/50/facebook-f.png" alt="icon-facebook">
+                <img class="ic-social-media" src="https://img.icons8.com/ios-filled/50/zalo.png" alt="icon-zalo">
+                <img class="ic-social-media" src="https://img.icons8.com/ios-filled/50/youtube-play.png" alt="youtube-play">
+            </div>
+        </div>
+        <div>
+            <div class="match-width-parent wrap-height-content orientation-vertical gravity-center gravity-center-vertical">
+                <p><strong>Hotline: </strong>0906 645 777</p>
+                <p><strong>Liên hệ quảng cáo: </strong>0908 780 404</p>
+                <p>Tổng biên tập: Nguyễn Ngọc Toàn</p>
+                <p>Phó tổng biên tập: Hải Thành</p>
+                <p>Phó tổng biên tập: Lâm Hiếu Dũng</p>
+                <p>Phó tổng biên tập: Trần Việt Hưng</p>
+                <p>Tổng thư ký toàn soạn: Đức Trung</p>
+            </div>
+        </div>
+        <div class="parent-wd-400">
+            <p>Giấy phép xuất bản số 110/GP - BTTTT cấp ngày 24.3.2020 &copy; 2003-2024 Bản quyền thuộc về Báo Thanh Niên. Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.</p>
+            <img src="https://tinnhiemmang.vn/handle_cert?id=thanhnien.vn" alt="">
+        </div>
+    </footer>
+</body>
+</html>
